@@ -1,0 +1,44 @@
+        .Navbar {
+            background-color: #46ACC2;
+            display: flex;
+            padding: 3px;
+            font-family: sans-serif;
+            color: white;
+        }
+        
+        .Navbar__Link {
+            padding-right: 30px;
+            font-size: 80px;
+        }
+        
+        .Navbar__Items {
+            display: flex;
+        }
+        
+        .Navbar__Link-brand {
+            margin: 5px 5px 5px 0;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .Navbar__Items,
+            .Navbar {
+                flex-direction: column;
+            }
+            /*  .Navbar__Items {
+                display: none;
+            }*/
+            .Navbar__Link-brand {
+                max-width: 50%;
+            }
+        }
+        /*
+https://www.freecodecamp.org/portuguese/news/como-criar-uma-barra-de-navegacao-responsiva-com-um-menu-de-sanduiche-usando-flexbox/
+
+tabela de cores html
+
+https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb
+
+https://kinsta.com/pt/blog/estilo-de-imagem-css/ imagens
+
+
+*/
