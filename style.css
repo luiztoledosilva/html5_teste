@@ -23,11 +23,13 @@
             .Navbar__Items,
             .Navbar {
                 flex-direction: column;
+                background-color: blueviolet;
             }
             /*  .Navbar__Items {
                 display: none;
             }*/
-            .Navbar__Link-brand {
+            .Navbar__Link-brand,
+            .paragrafos {
                 max-width: 50%;
             }
         }
