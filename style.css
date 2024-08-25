@@ -50,6 +50,42 @@
             background-color: blueviolet;
         }
         
+        .align-content {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 50px);
+            height: 300px;
+        }
+        
+        .start {
+            align-content: start;
+        }
+        
+        .end {
+            align-content: end;
+        }
+        
+        .center {
+            align-content: center;
+        }
+        
+        .space-around {
+            align-content: space-around;
+        }
+        
+        .space-between {
+            align-content: space-between;
+        }
+        
+        .space-evenly {
+            align-content: space-evenly;
+        }
+        
+        .stretch {
+            grid-template-columns: auto;
+            align-content: stretch;
+        }
+        
         @media only screen and (max-width: 768px) {
             .Navbar__Items,
             .Navbar {
