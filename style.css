@@ -1,3 +1,13 @@
+        .teste1 {
+            color: red;
+            text-align: center;
+            font-size: 60px;
+        }
+        
+        .paragrafo {
+            font-size: 30px;
+        }
+        
         .Navbar {
             background-color: #46ACC2;
             display: flex;
@@ -17,6 +27,27 @@
         
         .Navbar__Link-brand {
             margin: 5px 5px 5px 0;
+        }
+        /*  .flex-container {
+            display: flex;
+        }
+      */
+        
+        .container {
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .tabela1 {
+            background-color: aquamarine;
+        }
+        
+        .tabela2 {
+            background-color: aliceblue;
+        }
+        
+        .tabela3 {
+            background-color: blueviolet;
         }
         
         @media only screen and (max-width: 768px) {
@@ -41,6 +72,19 @@ tabela de cores html
 https://celke.com.br/artigo/tabela-de-cores-html-nome-hexadecimal-rgb
 
 https://kinsta.com/pt/blog/estilo-de-imagem-css/ imagens
+
+
+flex 
+
+https://www.alura.com.br/artigos/css-guia-do-flexbox?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D+-+Dynamic+Search+Ads+-+Artigos+e+Conte%C3%BAdos&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=11384329873&hsa_grp=164068847699&hsa_ad=703934793962&hsa_src=g&hsa_tgt=dsa-2273097816642&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=EAIaIQobChMIjNDLuKiQiAMVkVNIAB3DmzCAEAAYASAAEgLCEfD_BwE
+
+https://tipscode.com.br/flexbox-como-centralizar-elementos
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/ol ordenacao em html 
+
+tabela em html:
+https://www.homehost.com.br/blog/criar-sites/tabela-html/
+
 
 
 */
